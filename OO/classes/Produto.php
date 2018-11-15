@@ -6,6 +6,7 @@
 		private $estoque;
 		private $preco;
 		private $fabricante;
+		private $caracteristicas;
 
 		public function __construct($descricao, $estoque, $preco){
 
@@ -29,6 +30,18 @@
 
 		public function setFabricante(Fabricante $f){		//declaro o Fabricante por fora, e o crio posteriormente dentro dessa classe
 			$this->fabricante = $f;
+		}
+
+		public function addCaracteristica($nome, $valor){
+
+			$this->caracteristicas[] = new Caracteristica($nome, $valor);
+
+		}
+
+		public function getCaracteristicas(){
+
+			return $this->caracteristicas;
+
 		}
 
 	}
