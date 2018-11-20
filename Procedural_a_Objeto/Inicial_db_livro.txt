@@ -1,0 +1,23 @@
+CREATE TABLE estado(
+	id INT PRIMARY KEY NOT NULL,
+	sigla char(2),
+	nome text
+);
+
+CREATE TABLE cidade (
+	id INT PRIMARY KEY NOT NULL,
+	nome TEXT,
+	id_estado INT REFERENCES estado(id)
+);
+
+CREATE TABLE pessoa(
+	id INT PRIMARY KEY NOT NULL,
+	nome TEXT,
+	endereco TEXT,
+	bairro text,
+	email text, 
+	id_cidade int references cidade(id)
+);
+
+INSERT INTO estado VALUES (1,'AC','Acre');
+INSERT INTO cidade VALUES (1,'Rio Branco',1);

@@ -11,26 +11,26 @@
 
 	<form enctype="multipart/form-data" method="post" action="pessoa_save_insert.php">
 
-		<label>Código</label><br>
-		<input type="text" name="id" readonly="1" style="width: 30%"><br><br>
+		<label>Código</label>
+		<input type="text" name="id" readonly="1" style="width: 30%">
 
-		<label>Nome</label><br>
-		<input type="text" name="nome" style="width: 50%"><br><br>
+		<label>Nome</label>
+		<input type="text" name="nome" style="width: 50%">
 
-		 <label>Endereço</label><br>
-		 <input type="text" name="endereco" style="width: 50%"><br><br>
+		 <label>Endereço</label>
+		 <input type="text" name="endereco" style="width: 50%">
 
-		 <label>Bairro</label><br>
-		 <input type="text" name="bairro" style="width: 25%"><br><br>
+		 <label>Bairro</label>
+		 <input type="text" name="bairro" style="width: 25%">
 
-		 <label>Telefone</label><br>
-		 <input type="text" name="telefone" style="width: 25%"><br><br>
+		 <label>Telefone</label>
+		 <input type="text" name="telefone" style="width: 25%">
 
-		 <label>Email</label><br>
-		 <input type="text" name="email" style="width: 25%"><br><br>
+		 <label>Email</label>
+		 <input type="text" name="email" style="width: 25%">
 
-		 <label>Cidade</label><br>
-		 <select name="id_cidade" style="width: 25%"><br><br>
+		 <label>Cidade</label>
+		 <select name="id_cidade" style="width: 25%">
 		 	
 		 	<?php
 
@@ -45,6 +45,8 @@
 		 <input type="submit" value="Enviar">
 
 	</form>
+
+
 
 </body>
 </html>
