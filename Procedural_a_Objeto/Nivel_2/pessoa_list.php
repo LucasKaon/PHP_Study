@@ -73,7 +73,7 @@
 
 		?>
 
-		<button id="btn_inserir" onclick="window.location='pessoa_form_insert.php'">
+		<button id="btn_inserir" onclick="window.location='pessoa_form.php'">
 				
 				<img src='imagens/insert.svg' style="width: 12px"> Inserir
 
