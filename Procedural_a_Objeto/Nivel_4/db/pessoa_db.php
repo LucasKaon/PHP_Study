@@ -81,7 +81,7 @@
 		$conn = mysqli_connect('localhost','root','','db_livro');
 
 		$query = "UPDATE pessoa SET nome 		= 		'{$pessoa['nome']}',
-									endereco	=		'{$pessoa['endreco']}',
+									endereco	=		'{$pessoa['endereco']}',
 									bairro		=		'{$pessoa['bairro']}',
 									telefone 	=		'{$pessoa['telefone']}',
 									email 		=		'{$pessoa['email']}',

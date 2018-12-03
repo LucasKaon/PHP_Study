@@ -18,11 +18,11 @@
 		foreach ($pessoas as $pessoa) {
 			
 		$item = file_get_contents('html/item.html');
-		$item = str_replace('{id}', 		$pessoa['id'],				$item);
-		$item = str_replace('{nome}', 		$pessoa['nome'],			$item);
-		$item = str_replace('{endereco}', 	$pessoa['endereco'],		$item);
-		$item = str_replace('{bairro}', 	$pessoa['bairro'],			$item);
-		$item = str_replace('{telefone}', 	$pessoa['telefone'],		$item);
+		$item = str_replace('{id}', 		$pessoa['0'],				$item);
+		$item = str_replace('{nome}', 		$pessoa['1'],			$item);
+		$item = str_replace('{endereco}', 	$pessoa['2'],		$item);
+		$item = str_replace('{bairro}', 	$pessoa['3'],			$item);
+		$item = str_replace('{telefone}', 	$pessoa['4'],		$item);
 
 		$items.=$item;
 

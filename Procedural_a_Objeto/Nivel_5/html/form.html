@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+
+	<!-- Neste caso, o formulário vai servir de base para a criação de um html através
+	de um código criado em javascript. Todas as informações aqui descritas serão 
+	'puxadas' pelo file_get_contents.. e posteriormente os dados serão substituidos 
+	através do str_replace() -->
+
+	<form method="post" action="pessoa_form.php?action=save" enctype="multipart/form-data">
+		
+		<label>Código</label>
+		<input type="text" name="id" readonly="1" style="width: 30%" value={id}>
+
+		<label>Nome</label>
+		<input type="text" name="nome" style="width: 50%" value={nome}>
+
+		 <label>Endereço</label>
+		 <input type="text" name="endereco" style="width: 50%" value={endereco}>
+
+		 <label>Bairro</label>
+		 <input type="text" name="bairro" style="width: 25%" value={bairro}> 
+
+		 <label>Telefone</label>
+		 <input type="text" name="telefone" style="width: 25%" value={telefone}>
+
+		 <label>Email</label>
+		 <input type="text" name="email" style="width: 25%" value={email}>
+
+		 <label>Cidade</label>
+		 <select name="id_cidade" style="width: 25%" >	
+		 {cidades}
+		 </select><br>
+
+		 <input id="input_submit" type="submit" value="Enviar">
+
+
+
+	</form>
+
+</body>
+</html>
