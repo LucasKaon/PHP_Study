@@ -13,12 +13,12 @@
 				$row = $result->fetch();
 				$pessoa['id'] = (int) $row['next']+1;
 
-				$sql = "INSERT INTO pessoa (id, nome, endereco, bairro, 
+				$sql = "INSERT INTO db_livro.pessoa (id, nome, endereco, bairro, 
 									  telefone, email, id_cidade)
 							VALUES('{$pessoa['id']}','{$pessoa['nome']}', '{$pessoa['endereco']}','{$pessoa['bairro']}', '{$pessoa['telefone']}','{$pessoa['email']}','{$pessoa['id_cidade']}')";
 			} else 
 			{
-				$sql = "UPDATE pessoa SET nome 				= 		'{$pessoa['nome']}',
+				$sql = "UPDATE db_livro.pessoa SET nome 				= 		'{$pessoa['nome']}',
 											endereco			=		'{$pessoa['endereco']}',
 											bairro				=		'{$pessoa['bairro']}',
 											telefone 			=		'{$pessoa['telefone']}',

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<config>
+
+		<host>localhost</host>
+		<user>RogerMIX</user>
+		<pais>Brasil</pais>
+		<plataforma>UMX-1</plataforma>
+		<controle>Alto</controle>
+
+	</config>

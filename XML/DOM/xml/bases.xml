@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<bases>
+		<base id="1">
+
+			<name>admin</name>
+			<host>192.168.0.1</host>
+			<type>mysql</type>
+			<user>root</user>
+		</base>
+
+		<base id="2">
+
+			<name>bash2</name>
+			<host>192.168.1.11</host>
+			<type>postgree</type>
+			<user>adm</user>
+		</base>
+
+	</bases>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pais>
+
+		<nome>Brasil</nome>
+		<idioma>Portugues</idioma>
+		<moeda>Novo Real</moeda>
+
+		<geografia>
+
+			<clima>Pantanal</clima>
+			<costa>7637 km</costa>
+			<pico>Neblina (3014 m)</pico>
+
+		</geografia>
+		<estados>
+
+			<nome>São Paulo</nome>
+			<nome>Minas Gerais</nome>
+			<nome>Goiás</nome>
+			<nome>Santa Catarina</nome>
+			<nome>Maranhão</nome>
+			<nome>Bahia</nome>
+
+		</estados>
+
+
+	</pais>
